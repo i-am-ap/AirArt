@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-margin {
+    margin: 10px;
+    margin-top: 50px;
+    height: 520px;
+}
+
+h2{
+    color:rgb(255, 255, 255);
+    font-family: "Playwrite AU QLD", cursive;
+    font-weight: bold;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    /* background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.btn-outline-success{
+    width: 40%;
+}
+
+.row-cols-md-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.col{
+    margin: 0;
+}
+
+
+footer{
+    /* background-color: rgb(0, 0, 0); */
+    position: absolute;
+    background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    bottom: auto;
+}
+
+@media (max-width:768px){
+    footer{
+        position: relative;
+    }
+}
