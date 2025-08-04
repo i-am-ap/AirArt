@@ -5,5 +5,5 @@ keyboard==0.13.5
 mediapipe==0.10.9
 numpy==1.24.3
 pygame==2.0.1
-tensorflow==2.5.0venv\Scripts\activate
+tensorflow==2.5.0
 flask==2.1.0
