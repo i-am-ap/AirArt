@@ -73,6 +73,30 @@ AirArt/
 
 ---
 
+### ⚠️ Deployment Note
+This is a **real-time, camera-based desktop app** and **cannot be deployed on cloud services like Render** due to:
+- No access to webcam hardware on server
+- No GUI display for `cv2.imshow()`
+
+### 🚀 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/i-am-ap/AirArt.git
+cd AirArt
+
+# Create virtual environment
+python -m venv venv
+venv\Scripts\activate    # or source venv/bin/activate (Linux/Mac)
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python app.py
+```
+---
+
 ## 🧠 Learnings
 
 - How to integrate MediaPipe into real-time applications.
