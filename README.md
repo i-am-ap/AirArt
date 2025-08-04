@@ -57,6 +57,7 @@ The aim of this project is to:
 ---
 
 ## 📁 Project Structure
+```
 AirArt/
 │
 ├── app.py # Flask app runner
@@ -69,7 +70,7 @@ AirArt/
 │ └── images, assets
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
