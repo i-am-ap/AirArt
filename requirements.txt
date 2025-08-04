@@ -9,3 +9,4 @@ flask==1.1.4
 werkzeug==1.0.1
 markupsafe==2.0.1
 matplotlib==3.3.4
+gunicorn
