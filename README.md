@@ -1,6 +1,6 @@
 # 🎨 AirArt — Draw with Your Hands Using Computer Vision
 
-AirArt is an innovative computer vision-based web app that lets you draw in the air using only **hand gestures** — no stylus, no touchscreen. It uses **MediaPipe** and **OpenCV** to detect hand landmarks and finger movement, translating them into brush strokes on a digital canvas in real time.
+AirArt is an innovative computer vision-based web app that lets you draw in the air using only **hand gestures** — no stylus, no touchscreen. It uses **MediaPipe** and **OpenCV** to detect hand landmarks and finger movement, translating them into brush strokes on a digital canvas in real time. AirArt is responsive and accessible on all major devices.
 
 ---
 
